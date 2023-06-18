@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="navbar">
+    <h2>Bozbash Clothing</h2>
+    <div class="cart">
+    <i class="bi bi-cart2"></i>
+        <div class="cartAmount">0</div>
+    </div>
+   </div>
+   <div class="cart-container">
+    <button class="exit-button">&times;</button>
+    <div class="cart-items">
+      <!-- Cart items will be dynamically added here -->
+    </div>
+    <div class="total-price">
+      Total Price: $0.00
+    </div>
+  </div>
+  
+    <div class="shop" id="shop">
+        <div class="item">
+            <img width="220" src="img/Shemi.png" alt="">
+            <div class="details">
+                <h3>Shiny manly suit</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                <div class="price">
+                    <h2>$ 125</h2>
+                    <div class="buttons">
+                        <i onclick="decrease()" class="bi bi-dash"></i>
+                        <div class="quantity">0</div>
+                        <i onclick="increase()" class="bi bi-plus-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img width="220" src="img/Ədalət_Şükürov.jpg" alt="">
+            <div class="details">
+                <h3>Buttoned mafia boss shirt</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                <div class="price">
+                    <h2>$ 250</h2>
+                    <div class="buttons">
+                        <i onclick="decrease()" class="bi bi-dash"></i>
+                        <div class="quantity">0</div>
+                        <i onclick="increase()" class="bi bi-plus-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img width="220" src="img/eyyubmellim.jpeg" alt="">
+            <div class="details">
+                <h3>Goodlooking cream gentlemen suit</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                <div class="price">
+                    <h2>$ 550</h2>
+                    <div class="buttons">
+                        <i onclick="decrease()" class="bi bi-dash"></i>
+                        <div class="quantity">0</div>
+                        <i onclick="increase()" class="bi bi-plus-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img width="220" src="img/Shirin.jpeg" alt="">
+            <div class="details">
+                <h3>Giorgio Armani blue suit</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                <div class="price">
+                    <h2>$ 500</h2>
+                    <div class="buttons">
+                        <i onclick="decrease()" class="bi bi-dash"></i>
+                        <div class="quantity">0</div>
+                        <i onclick="increase()" class="bi bi-plus-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
